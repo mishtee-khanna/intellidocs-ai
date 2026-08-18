@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import fs from "fs";
 
-import { pipeline } from "@xenova/transformers";
+import { pipeline } from "@huggingface/transformers";
 
 // Simple text splitter function to avoid LangChain dependency issues
 function chunkText(text: string, chunkSize = 1000, overlap = 200) {
