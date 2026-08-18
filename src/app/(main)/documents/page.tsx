@@ -51,7 +51,8 @@ export default function DocumentsPage() {
            setMessage("File uploaded, but an error occurred during AI processing.");
         }
       } else {
-        setMessage("File upload failed.");
+        const errData = await res.json().catch(() => ({}));
+        setMessage(`File upload failed: ${errData.details || errData.error || 'Unknown error'}`);
       }
     } catch (error) {
       setMessage("An error occurred during upload.");
