@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { writeFile } from "fs/promises";
+import { writeFile, mkdir } from "fs/promises";
 import path from "path";
 import { prisma } from "@/lib/prisma";
 import { getServerSession } from "next-auth/next";
@@ -23,11 +23,12 @@ export async function POST(req: Request) {
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
 
-    // Save to local file system
-    const uploadDir = path.join(process.cwd(), "..", "uploads");
+    // Save to /tmp — the only writable directory in Vercel serverless
+    const uploadDir = "/tmp/uploads";
+    await mkdir(uploadDir, { recursive: true });
     const uniqueFilename = `${crypto.randomBytes(16).toString("hex")}-${file.name}`;
     const filePath = path.join(uploadDir, uniqueFilename);
-    
+
     await writeFile(filePath, buffer);
 
     let docId = null;
