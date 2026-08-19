@@ -1,160 +1,82 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6ec7,35:f72585,70:9b5de5,100:00c6ff&height=240&section=header&text=IntelliDocs%20AI&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI-powered%20document%20intelligence&descAlignY=61&descSize=20" width="100%" alt="IntelliDocs AI animated header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6ec7,30:f72585,65:9b5de5,100:00c6ff&height=250&section=header&text=IntelliDocs%20AI&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Turn%20documents%20into%20conversations&descAlignY=61&descSize=20" width="100%" alt="Animated IntelliDocs AI header" />
 
-<a href="https://github.com/mishtee-khanna/intellidocs-ai">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2600&pause=700&color=9B5DE5&center=true&vCenter=true&width=820&lines=Upload+%E2%86%92+Understand+%E2%86%92+Ask+%E2%86%92+Get+Answers;Turn+documents+into+an+interactive+knowledge+base;Semantic+Search+%2B+RAG+%2B+Conversational+AI;Your+documents.+Your+knowledge.+Your+AI.%22" alt="Animated typing tagline" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2400&pause=650&color=9B5DE5&center=true&vCenter=true&width=850&lines=%F0%9F%93%84+Upload+%E2%86%92+%F0%9F%A7%A0+Understand+%E2%86%92+%F0%9F%92%AC+Ask+%E2%86%92+%E2%9C%A8+Answer;AI-powered+document+intelligence;Semantic+Search+%2B+RAG+%2B+Conversational+AI;Your+documents.+Your+knowledge.+Your+AI." alt="Animated project tagline" />
 
 <br/>
 
 <img src="https://img.shields.io/badge/✨_AI_Document_Intelligence-9b5de5?style=for-the-badge" alt="AI Document Intelligence" />
-<img src="https://img.shields.io/badge/🚀_Built_with-Next.js-black?style=for-the-badge" alt="Built with Next.js" />
-<img src="https://img.shields.io/badge/💬_Conversational-RAG-ff6ec7?style=for-the-badge" alt="Conversational RAG" />
+<img src="https://img.shields.io/badge/🚀_Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/💬_RAG-ff6ec7?style=for-the-badge" alt="RAG" />
 
 <br/><br/>
 
-<img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,prisma,mysql,vercel&perline=7" alt="Technology icons" />
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,prisma,mysql,vercel&perline=7" alt="Tech stack icons" />
 
 <br/><br/>
 
-<a href="https://github.com/mishtee-khanna/intellidocs-ai/stargazers"><img src="https://img.shields.io/github/stars/mishtee-khanna/intellidocs-ai?style=flat-square&logo=github&color=ff69b4" alt="GitHub stars" /></a>
-<a href="https://github.com/mishtee-khanna/intellidocs-ai/network/members"><img src="https://img.shields.io/github/forks/mishtee-khanna/intellidocs-ai?style=flat-square&color=9b5de5" alt="GitHub forks" /></a>
-<a href="https://github.com/mishtee-khanna/intellidocs-ai/issues"><img src="https://img.shields.io/github/issues/mishtee-khanna/intellidocs-ai?style=flat-square&color=00c6ff" alt="GitHub issues" /></a>
+<a href="https://github.com/mishtee-khanna/intellidocs-ai/stargazers"><img src="https://img.shields.io/github/stars/mishtee-khanna/intellidocs-ai?style=flat-square&logo=github&color=ff69b4" alt="Stars" /></a>
+<a href="https://github.com/mishtee-khanna/intellidocs-ai/network/members"><img src="https://img.shields.io/github/forks/mishtee-khanna/intellidocs-ai?style=flat-square&color=9b5de5" alt="Forks" /></a>
+<a href="https://github.com/mishtee-khanna/intellidocs-ai/issues"><img src="https://img.shields.io/github/issues/mishtee-khanna/intellidocs-ai?style=flat-square&color=00c6ff" alt="Issues" /></a>
 <img src="https://img.shields.io/github/last-commit/mishtee-khanna/intellidocs-ai?style=flat-square&color=f72585" alt="Last commit" />
 
 </div>
 
 ---
 
-## ✨ The Idea
-
 <div align="center">
 
-> ### 📚 **Stop searching through documents. Start talking to them.**
->
-> IntelliDocs AI turns static **PDF, DOCX, PNG & JPG** files into an interactive knowledge base where users can upload, search, and ask questions in natural language.
+## 💫 Meet Your Documents Differently
+
+<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=17&duration=2200&pause=700&color=F72585&center=true&vCenter=true&width=720&lines=No+more+endless+scrolling+%F0%9F%93%9C;No+more+manual+searching+%F0%9F%94%8D;Just+upload%2C+ask%2C+and+understand+%F0%9F%92%AC" alt="Animated value proposition" />
+
+**IntelliDocs AI** transforms static PDF, DOCX, PNG and JPG files into an interactive knowledge base where users can upload documents and ask questions in natural language.
 
 </div>
 
-<br/>
+---
+
+## 🌸 Core Features
 
 <div align="center">
 
+| 📄 Smart Upload | 🧠 Semantic Understanding | 💬 Conversational Q&A |
+|:---:|:---:|:---:|
+| PDF • DOCX • PNG • JPG | Embeddings with `all-MiniLM-L6-v2` | Ask questions naturally |
+
+| 🔍 RAG Retrieval | 🔐 Authentication | 🗃️ Persistent Knowledge |
+|:---:|:---:|:---:|
+| Retrieve relevant chunks | NextAuth.js sessions | Prisma + MySQL/MariaDB |
+
+</div>
+
+---
+
+## 🎞️ How IntelliDocs Thinks
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1800&pause=500&color=9B5DE5&center=true&vCenter=true&width=760&lines=STEP+01+%E2%86%92+Read+the+document;STEP+02+%E2%86%92+Split+the+content;STEP+03+%E2%86%92+Create+embeddings;STEP+04+%E2%86%92+Retrieve+relevant+chunks;STEP+05+%E2%86%92+Generate+an+answer" alt="Animated RAG steps" />
+
 ```text
-📄 DOCUMENTS  ──────►  🧠 UNDERSTAND  ──────►  💬 CONVERSE
-     │                         │                       │
-     └─────────────── IntelliDocs AI ────────────────┘
+📤 UPLOAD
+    │
+    ▼
+📄 EXTRACT ──► ✂️ CHUNK ──► 🧠 EMBED ──► 💾 STORE
+                                             │
+                                             ▼
+❓ ASK ◄────────────────────────────── 🔎 RETRIEVE
+    │
+    ▼
+✨ CONTEXT-AWARE ANSWER
 ```
 
 </div>
 
 ---
 
-## ⚡ What Can It Do?
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-### 📄 Smart Upload
-Upload **PDF, DOCX, PNG & JPG** files and build your personal document workspace.
-
-</td>
-<td width="50%" align="center">
-
-### 🧠 Semantic Understanding
-Convert document content into meaningful vectors using **all-MiniLM-L6-v2** embeddings.
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-
-### 💬 Conversational Q&A
-Ask questions naturally and receive answers based on your documents.
-
-</td>
-<td width="50%" align="center">
-
-### 🔍 RAG-powered Retrieval
-Retrieve relevant document chunks before generating an answer, helping keep responses grounded.
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-
-### 🔐 Secure Authentication
-User authentication and sessions powered by **NextAuth.js**.
-
-</td>
-<td width="50%" align="center">
-
-### 🗃️ Persistent Knowledge
-Document metadata, extracted content, chunks and embeddings persist through **Prisma + MySQL/MariaDB**.
-
-</td>
-</tr>
-</table>
-
----
-
-## 🎬 The IntelliDocs Flow
-
-<div align="center">
-
-```text
-       📤 UPLOAD
-           │
-           ▼
-    ┌───────────────┐
-    │ 📄 Extract    │
-    │     Text      │
-    └───────┬───────┘
-            │
-            ▼
-    ┌───────────────┐
-    │ ✂️ Chunk      │
-    │   Content     │
-    └───────┬───────┘
-            │
-            ▼
-    ┌───────────────┐
-    │ 🧠 Embed      │
-    │ all-MiniLM    │
-    └───────┬───────┘
-            │
-            ▼
-    ┌───────────────┐
-    │ 💾 Store      │
-    │ Prisma + DB   │
-    └───────┬───────┘
-            │
-            ▼
-         ❓ ASK
-            │
-            ▼
-    ┌───────────────┐
-    │ 🔎 Retrieve   │
-    │ Relevant      │
-    │ Chunks        │
-    └───────┬───────┘
-            │
-            ▼
-    ┌───────────────┐
-    │ ✨ ANSWER     │
-    │ Context-aware │
-    └───────────────┘
-```
-
-</div>
-
----
-
-## 🌈 Architecture at a Glance
-
-<div align="center">
+## 🌈 Application Architecture
 
 ```text
                          👩‍💻 USER
@@ -166,7 +88,7 @@ Document metadata, extracted content, chunks and embeddings persist through **Pr
               │      Tailwind CSS       │
               └────────────┬────────────┘
                            │
-                       API REQUESTS
+                      ⚡ API REQUESTS
                            │
                            ▼
               ┌─────────────────────────┐
@@ -183,13 +105,9 @@ Document metadata, extracted content, chunks and embeddings persist through **Pr
                               └────────────────┘
 ```
 
-</div>
-
 ---
 
 ## 🛠️ Tech Stack
-
-<div align="center">
 
 | Layer | Technology |
 |---|---|
@@ -202,8 +120,6 @@ Document metadata, extracted content, chunks and embeddings persist through **Pr
 | 🔎 AI Pipeline | **LangChain.js · RAG** |
 | ☁️ Deployment | **Vercel** |
 
-</div>
-
 ---
 
 ## 🔌 API Layer
@@ -213,9 +129,9 @@ Document metadata, extracted content, chunks and embeddings persist through **Pr
 | Method | Endpoint | Purpose |
 |:---:|---|---|
 | `POST` | `/api/documents/upload` | 📤 Upload a document |
-| `POST` | `/api/documents/process` | 🔎 Extract text + generate embeddings |
-| `POST` | `/api/chat` | 💬 Ask questions through the RAG pipeline |
-| `GET / POST` | `/api/auth/[...nextauth]` | 🔐 Authentication handlers |
+| `POST` | `/api/documents/process` | 🔎 Process document + embeddings |
+| `POST` | `/api/chat` | 💬 Document Q&A |
+| `GET / POST` | `/api/auth/[...nextauth]` | 🔐 Authentication |
 
 </div>
 
@@ -234,16 +150,16 @@ intellidocs-ai/
 │   │   ├── page.tsx                 # 🏠 Landing / Login
 │   │   ├── (main)/
 │   │   │   ├── dashboard/           # 📊 Dashboard
-│   │   │   ├── documents/           # 📄 Upload & management
-│   │   │   ├── chat/                # 💬 AI Q&A
+│   │   │   ├── documents/           # 📄 Documents
+│   │   │   ├── chat/                # 💬 AI Chat
 │   │   │   └── settings/            # ⚙️ Settings
 │   │   │
 │   │   └── api/
 │   │       ├── auth/                # 🔐 Authentication
 │   │       ├── chat/                # 💬 Chat API
 │   │       └── documents/
-│   │           ├── upload/          # 📤 File upload
-│   │           └── process/          # 🧠 Processing
+│   │           ├── upload/          # 📤 Upload API
+│   │           └── process/         # 🧠 Processing API
 │   │
 │   ├── components/                  # 🧩 Reusable UI
 │   └── lib/                          # 🔧 Shared utilities
@@ -281,42 +197,23 @@ Open **http://localhost:3000** ✨
 
 ---
 
-## 🗃️ Data Model
+## 💖 Traditional vs IntelliDocs
 
 <div align="center">
 
 ```text
-            👤 User
-              │
-              │ 1 : N
-              ▼
-         📄 Document
-              │
-              │ 1 : N
-              ▼
-       🧩 DocumentChunk
+TRADITIONAL DOCUMENT WORKFLOW
+
+🔍 Search → 📜 Scroll → 👀 Read → 🔁 Repeat
+
+                         VS
+
+INTELLIDOCS AI
+
+📤 Upload → 💬 Ask → 🔎 Retrieve → ✨ Understand
 ```
 
-</div>
-
-- **User** → account and profile information
-- **Document** → uploaded file metadata, status and extracted text
-- **DocumentChunk** → chunked content + serialized vector embeddings
-
----
-
-## 💖 Why IntelliDocs AI?
-
-<div align="center">
-
-| Traditional Way | IntelliDocs AI |
-|:---:|:---:|
-| 🔍 Search | 💬 Ask |
-| 📜 Scroll | 🧠 Understand |
-| ⏳ Spend time | ⚡ Get answers |
-| 🔁 Repeat | ✨ Converse |
-
-### **Upload → Ask → Retrieve → Understand** 🚀
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=800&color=00C6FF&center=true&vCenter=true&width=700&lines=From+static+files+to+interactive+knowledge;From+searching+to+conversing;From+pages+to+answers+%E2%9C%A8" alt="Animated comparison" />
 
 </div>
 
@@ -324,21 +221,37 @@ Open **http://localhost:3000** ✨
 
 ## 🔮 Roadmap
 
-```text
-████████████████████░░  Core platform
-██████████████░░░░░░░░  API integration
-████████████░░░░░░░░░░  Advanced RAG
-██████████░░░░░░░░░░░░  Multi-document Q&A
-████████░░░░░░░░░░░░░░  Multilingual support
-```
+<div align="center">
 
-- [ ] 📊 Advanced document analytics
-- [ ] 📑 Better table & structured-data extraction
-- [ ] 🌍 Multilingual document Q&A
-- [ ] 🧩 More document formats
-- [ ] 🔎 Improved vector-search infrastructure
-- [ ] 👥 Shared document workspaces
+**CURRENT** `██████████████████░░` **BUILDING**
+
+</div>
+
+- [x] 🎨 Core frontend structure
+- [x] 🔐 Authentication foundation
+- [x] 🔌 API structure
+- [ ] 🧠 Complete AI/RAG integration
 - [ ] 📚 Multi-document conversations
+- [ ] 📊 Advanced document analytics
+- [ ] 🌍 Multilingual Q&A
+- [ ] 👥 Shared document workspaces
+
+---
+
+## 🌟 Project Status
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Frontend-Active-ff69b4?style=for-the-badge" alt="Frontend active" />
+<img src="https://img.shields.io/badge/Authentication-Implemented-9b5de5?style=for-the-badge" alt="Authentication implemented" />
+<img src="https://img.shields.io/badge/API-In%20Progress-00c6ff?style=for-the-badge" alt="API in progress" />
+<img src="https://img.shields.io/badge/AI%2FRAG-In%20Progress-f72585?style=for-the-badge" alt="AI RAG in progress" />
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2500&pause=700&color=9B5DE5&center=true&vCenter=true&width=720&lines=Building+%F0%9F%92%BB+%E2%80%A2+Learning+%F0%9F%A7%A0+%E2%80%A2+Improving+%E2%9C%A8;One+feature+at+a+time+%F0%9F%9A%80" alt="Animated project status" />
+
+</div>
 
 ---
 
@@ -353,14 +266,14 @@ Open **http://localhost:3000** ✨
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=FF6EC7&center=true&vCenter=true&width=650&lines=Made+with+curiosity+%E2%9C%A8;Built+to+make+documents+smarter+%F0%9F%A7%A0;Upload.+Ask.+Understand.+%F0%9F%92%AC" alt="Animated closing message" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=2800&pause=800&color=FF6EC7&center=true&vCenter=true&width=700&lines=Made+with+curiosity+%E2%9C%A8;Built+to+make+documents+smarter+%F0%9F%A7%A0;Upload.+Ask.+Understand.+%F0%9F%92%AC" alt="Animated closing message" />
 
 <br/><br/>
 
-<a href="https://github.com/mishtee-khanna/intellidocs-ai">⭐ Star the repository if you like IntelliDocs AI!</a>
+<a href="https://github.com/mishtee-khanna/intellidocs-ai">⭐ Star IntelliDocs AI</a>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,35:9b5de5,70:f72585,100:ff6ec7&height=140&section=footer&animation=fadeIn" width="100%" alt="Animated footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,35:9b5de5,70:f72585,100:ff6ec7&height=150&section=footer&animation=fadeIn" width="100%" alt="Animated footer" />
 
 </div>
