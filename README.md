@@ -1,91 +1,98 @@
 <div align="center">
 
-<a href="https://github.com/mishtee-khanna/intellidocs-ai">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6ec7,50:9b5de5,100:00c6ff&height=220&section=header&text=IntelliDocs%20AI&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Chat%20with%20your%20documents%20using%20AI%20%7C%20RAG%20%7C%20Semantic%20Search&descAlignY=60&descSize=18" width="100%" alt="IntelliDocs AI banner" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6ec7,35:f72585,70:9b5de5,100:00c6ff&height=240&section=header&text=IntelliDocs%20AI&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI-powered%20document%20intelligence&descAlignY=61&descSize=20" width="100%" alt="IntelliDocs AI animated header" />
 
 <a href="https://github.com/mishtee-khanna/intellidocs-ai">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=9B5DE5&center=true&vCenter=true&width=750&lines=Upload+%E2%86%92+Understand+%E2%86%92+Ask+%E2%86%92+Get+Answers;AI-powered+document+intelligence;Retrieval-Augmented+Generation+%2B+semantic+embeddings;Your+documents%2C+your+knowledge%2C+your+AI" alt="Typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2600&pause=700&color=9B5DE5&center=true&vCenter=true&width=820&lines=Upload+%E2%86%92+Understand+%E2%86%92+Ask+%E2%86%92+Get+Answers;Turn+documents+into+an+interactive+knowledge+base;Semantic+Search+%2B+RAG+%2B+Conversational+AI;Your+documents.+Your+knowledge.+Your+AI.%22" alt="Animated typing tagline" />
 </a>
 
-<p>
-  <img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-</p>
+<br/>
 
-<p>
-  <img src="https://img.shields.io/badge/LangChain.js-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge&logo=auth0&logoColor=white" alt="NextAuth.js" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-</p>
+<img src="https://img.shields.io/badge/✨_AI_Document_Intelligence-9b5de5?style=for-the-badge" alt="AI Document Intelligence" />
+<img src="https://img.shields.io/badge/🚀_Built_with-Next.js-black?style=for-the-badge" alt="Built with Next.js" />
+<img src="https://img.shields.io/badge/💬_Conversational-RAG-ff6ec7?style=for-the-badge" alt="Conversational RAG" />
 
-<p>
-  <a href="https://github.com/mishtee-khanna/intellidocs-ai/stargazers"><img src="https://img.shields.io/github/stars/mishtee-khanna/intellidocs-ai?style=flat-square&logo=github&color=ff69b4" alt="GitHub stars" /></a>
-  <a href="https://github.com/mishtee-khanna/intellidocs-ai/network/members"><img src="https://img.shields.io/github/forks/mishtee-khanna/intellidocs-ai?style=flat-square&color=9b5de5" alt="GitHub forks" /></a>
-  <a href="https://github.com/mishtee-khanna/intellidocs-ai/issues"><img src="https://img.shields.io/github/issues/mishtee-khanna/intellidocs-ai?style=flat-square&color=00c6ff" alt="GitHub issues" /></a>
-  <img src="https://img.shields.io/github/last-commit/mishtee-khanna/intellidocs-ai?style=flat-square&color=7b2cbf" alt="Last commit" />
-</p>
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,prisma,mysql,vercel&perline=7" alt="Technology icons" />
+
+<br/><br/>
+
+<a href="https://github.com/mishtee-khanna/intellidocs-ai/stargazers"><img src="https://img.shields.io/github/stars/mishtee-khanna/intellidocs-ai?style=flat-square&logo=github&color=ff69b4" alt="GitHub stars" /></a>
+<a href="https://github.com/mishtee-khanna/intellidocs-ai/network/members"><img src="https://img.shields.io/github/forks/mishtee-khanna/intellidocs-ai?style=flat-square&color=9b5de5" alt="GitHub forks" /></a>
+<a href="https://github.com/mishtee-khanna/intellidocs-ai/issues"><img src="https://img.shields.io/github/issues/mishtee-khanna/intellidocs-ai?style=flat-square&color=00c6ff" alt="GitHub issues" /></a>
+<img src="https://img.shields.io/github/last-commit/mishtee-khanna/intellidocs-ai?style=flat-square&color=f72585" alt="Last commit" />
 
 </div>
 
 ---
 
-## 💡 What is IntelliDocs AI?
+## ✨ The Idea
 
-**IntelliDocs AI** is an intelligent document management and Q&A platform that turns static files into an interactive knowledge base.
+<div align="center">
 
-Upload **PDF, PNG, JPG, or DOCX** files, let the AI process their contents, and ask questions in natural language. Instead of manually searching through pages, IntelliDocs retrieves the most relevant information and generates context-aware answers from your own documents.
+> ### 📚 **Stop searching through documents. Start talking to them.**
+>
+> IntelliDocs AI turns static **PDF, DOCX, PNG & JPG** files into an interactive knowledge base where users can upload, search, and ask questions in natural language.
 
-> ✨ **Think of it as:** *your documents + semantic search + RAG + conversational AI in one place.*
+</div>
+
+<br/>
+
+<div align="center">
+
+```text
+📄 DOCUMENTS  ──────►  🧠 UNDERSTAND  ──────►  💬 CONVERSE
+     │                         │                       │
+     └─────────────── IntelliDocs AI ────────────────┘
+```
+
+</div>
 
 ---
 
-## ⚡ Core Features
+## ⚡ What Can It Do?
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" align="center">
 
-### 📄 Smart Document Upload
-Drag & drop **PDF, PNG, JPG & DOCX** files into the platform and start building your personal knowledge base.
+### 📄 Smart Upload
+Upload **PDF, DOCX, PNG & JPG** files and build your personal document workspace.
 
 </td>
-<td width="50%">
+<td width="50%" align="center">
 
-### 🧠 Semantic Embeddings
-Documents are chunked and transformed into semantic vectors using **Hugging Face `all-MiniLM-L6-v2`**.
+### 🧠 Semantic Understanding
+Convert document content into meaningful vectors using **all-MiniLM-L6-v2** embeddings.
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" align="center">
 
 ### 💬 Conversational Q&A
-Ask questions naturally and receive answers based on the content of your uploaded documents.
+Ask questions naturally and receive answers based on your documents.
 
 </td>
-<td width="50%">
+<td width="50%" align="center">
 
-### 🔍 RAG Pipeline
-Retrieval-Augmented Generation retrieves relevant chunks before generating an answer, keeping responses grounded in your data.
+### 🔍 RAG-powered Retrieval
+Retrieve relevant document chunks before generating an answer, helping keep responses grounded.
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" align="center">
 
-### 🔐 Authentication
-Secure user accounts and protected application routes powered by **NextAuth.js**.
+### 🔐 Secure Authentication
+User authentication and sessions powered by **NextAuth.js**.
 
 </td>
-<td width="50%">
+<td width="50%" align="center">
 
-### 🗃️ Persistent Knowledge Base
-Document metadata, extracted content, chunks, and embeddings are persisted through **Prisma + MySQL/MariaDB**.
+### 🗃️ Persistent Knowledge
+Document metadata, extracted content, chunks and embeddings persist through **Prisma + MySQL/MariaDB**.
 
 </td>
 </tr>
@@ -93,64 +100,96 @@ Document metadata, extracted content, chunks, and embeddings are persisted throu
 
 ---
 
-## 🧠 How IntelliDocs AI Works
+## 🎬 The IntelliDocs Flow
+
+<div align="center">
 
 ```text
-┌─────────────────┐
-│   📤 UPLOAD     │
-│ PDF • DOCX •    │
-│ PNG • JPG       │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  🔎 EXTRACT     │
-│   Text / Data   │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  ✂️ CHUNK       │
-│ Split content   │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  🧠 EMBED       │
-│ all-MiniLM-     │
-│ L6-v2 vectors   │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  💾 STORE       │
-│ Prisma + MySQL  │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  💬 ASK         │
-│ Natural-language│
-│ question        │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  🔍 RETRIEVE    │
-│ Relevant chunks │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  ✨ ANSWER      │
-│ Context-aware   │
-│ AI response     │
-└─────────────────┘
+       📤 UPLOAD
+           │
+           ▼
+    ┌───────────────┐
+    │ 📄 Extract    │
+    │     Text      │
+    └───────┬───────┘
+            │
+            ▼
+    ┌───────────────┐
+    │ ✂️ Chunk      │
+    │   Content     │
+    └───────┬───────┘
+            │
+            ▼
+    ┌───────────────┐
+    │ 🧠 Embed      │
+    │ all-MiniLM    │
+    └───────┬───────┘
+            │
+            ▼
+    ┌───────────────┐
+    │ 💾 Store      │
+    │ Prisma + DB   │
+    └───────┬───────┘
+            │
+            ▼
+         ❓ ASK
+            │
+            ▼
+    ┌───────────────┐
+    │ 🔎 Retrieve   │
+    │ Relevant      │
+    │ Chunks        │
+    └───────┬───────┘
+            │
+            ▼
+    ┌───────────────┐
+    │ ✨ ANSWER     │
+    │ Context-aware │
+    └───────────────┘
 ```
+
+</div>
+
+---
+
+## 🌈 Architecture at a Glance
+
+<div align="center">
+
+```text
+                         👩‍💻 USER
+                            │
+                            ▼
+              ┌─────────────────────────┐
+              │      🎨 FRONTEND        │
+              │ Next.js • React • TS    │
+              │      Tailwind CSS       │
+              └────────────┬────────────┘
+                           │
+                       API REQUESTS
+                           │
+                           ▼
+              ┌─────────────────────────┐
+              │       ⚙️ API LAYER       │
+              │ Auth • Documents • Chat │
+              └────────────┬────────────┘
+                           │
+                ┌──────────┴──────────┐
+                ▼                     ▼
+        ┌───────────────┐     ┌────────────────┐
+        │ 🗄️ DATABASE   │     │ 🧠 AI / RAG     │
+        │ Prisma + MySQL│     │ LangChain.js   │
+        └───────────────┘     │ + Embeddings   │
+                              └────────────────┘
+```
+
+</div>
 
 ---
 
 ## 🛠️ Tech Stack
+
+<div align="center">
 
 | Layer | Technology |
 |---|---|
@@ -163,6 +202,23 @@ Document metadata, extracted content, chunks, and embeddings are persisted throu
 | 🔎 AI Pipeline | **LangChain.js · RAG** |
 | ☁️ Deployment | **Vercel** |
 
+</div>
+
+---
+
+## 🔌 API Layer
+
+<div align="center">
+
+| Method | Endpoint | Purpose |
+|:---:|---|---|
+| `POST` | `/api/documents/upload` | 📤 Upload a document |
+| `POST` | `/api/documents/process` | 🔎 Extract text + generate embeddings |
+| `POST` | `/api/chat` | 💬 Ask questions through the RAG pipeline |
+| `GET / POST` | `/api/auth/[...nextauth]` | 🔐 Authentication handlers |
+
+</div>
+
 ---
 
 ## 🗂️ Project Structure
@@ -171,63 +227,41 @@ Document metadata, extracted content, chunks, and embeddings are persisted throu
 intellidocs-ai/
 │
 ├── prisma/
-│   └── schema.prisma          # Database schema
+│   └── schema.prisma
 │
 ├── src/
 │   ├── app/
-│   │   ├── page.tsx           # Landing / Login
+│   │   ├── page.tsx                 # 🏠 Landing / Login
 │   │   ├── (main)/
-│   │   │   ├── dashboard/     # User dashboard
-│   │   │   ├── documents/     # Upload & management
-│   │   │   ├── chat/          # AI Q&A interface
-│   │   │   └── settings/      # User settings
+│   │   │   ├── dashboard/           # 📊 Dashboard
+│   │   │   ├── documents/           # 📄 Upload & management
+│   │   │   ├── chat/                # 💬 AI Q&A
+│   │   │   └── settings/            # ⚙️ Settings
 │   │   │
 │   │   └── api/
-│   │       ├── auth/          # NextAuth handlers
-│   │       ├── chat/           # RAG chat API
+│   │       ├── auth/                # 🔐 Authentication
+│   │       ├── chat/                # 💬 Chat API
 │   │       └── documents/
-│   │           ├── upload/    # File upload
-│   │           └── process/   # Extraction & embeddings
+│   │           ├── upload/          # 📤 File upload
+│   │           └── process/          # 🧠 Processing
 │   │
-│   ├── components/            # Reusable UI components
-│   └── lib/
-│       ├── auth.ts            # Auth configuration
-│       └── prisma.ts          # Prisma client
+│   ├── components/                  # 🧩 Reusable UI
+│   └── lib/                          # 🔧 Shared utilities
 │
 └── README.md
 ```
 
 ---
 
-## 🔌 API Endpoints
-
-| Method | Endpoint | Purpose |
-|---|---|---|
-| `POST` | `/api/documents/upload` | Upload a document |
-| `POST` | `/api/documents/process` | Extract text + generate embeddings |
-| `POST` | `/api/chat` | Ask questions through the RAG pipeline |
-| `GET/POST` | `/api/auth/[...nextauth]` | Authentication handlers |
-
----
-
-## 🚀 Run Locally
-
-### 1. Clone
+## 🚀 Quick Start
 
 ```bash
 git clone https://github.com/mishtee-khanna/intellidocs-ai.git
 cd intellidocs-ai
-```
-
-### 2. Install dependencies
-
-```bash
 npm install
 ```
 
-### 3. Add environment variables
-
-Create `.env` in the project root:
+Create `.env`:
 
 ```env
 DATABASE_URL="mysql://USER:PASSWORD@HOST:PORT/DATABASE"
@@ -235,72 +269,71 @@ NEXTAUTH_SECRET="your-random-secret-key-min-32-chars"
 NEXTAUTH_URL="http://localhost:3000"
 ```
 
-### 4. Prepare Prisma
+Then:
 
 ```bash
 npx prisma migrate dev --name init
 npx prisma generate
-```
-
-### 5. Start the app
-
-```bash
 npm run dev
 ```
 
-Open **http://localhost:3000** 🎉
+Open **http://localhost:3000** ✨
 
 ---
 
-## ☁️ Deploy with Vercel
+## 🗃️ Data Model
 
-IntelliDocs AI is configured for Vercel deployment.
-
-Add these environment variables in your Vercel project:
-
-| Variable | Description |
-|---|---|
-| `DATABASE_URL` | MySQL/MariaDB connection string |
-| `NEXTAUTH_SECRET` | 32+ character authentication secret |
-| `NEXTAUTH_URL` | Your deployed application URL |
-
-```bash
-npm i -g vercel
-vercel --prod
-```
-
----
-
-## 🗃️ Database Model
+<div align="center">
 
 ```text
-User
- │
- └───< Document
-          │
-          └───< DocumentChunk
+            👤 User
+              │
+              │ 1 : N
+              ▼
+         📄 Document
+              │
+              │ 1 : N
+              ▼
+       🧩 DocumentChunk
 ```
 
+</div>
+
 - **User** → account and profile information
-- **Document** → uploaded file metadata, status, extracted text
+- **Document** → uploaded file metadata, status and extracted text
 - **DocumentChunk** → chunked content + serialized vector embeddings
 
 ---
 
-## 🌟 Why IntelliDocs AI?
+## 💖 Why IntelliDocs AI?
 
-> **Traditional document reading:** Search → Scroll → Read → Repeat
->
-> **IntelliDocs AI:** Upload → Ask → Retrieve → Understand ✨
+<div align="center">
 
-It is designed to reduce the time spent manually navigating long documents and make document knowledge accessible through natural-language interaction.
+| Traditional Way | IntelliDocs AI |
+|:---:|:---:|
+| 🔍 Search | 💬 Ask |
+| 📜 Scroll | 🧠 Understand |
+| ⏳ Spend time | ⚡ Get answers |
+| 🔁 Repeat | ✨ Converse |
+
+### **Upload → Ask → Retrieve → Understand** 🚀
+
+</div>
 
 ---
 
-## 🔮 Future Scope
+## 🔮 Roadmap
+
+```text
+████████████████████░░  Core platform
+██████████████░░░░░░░░  API integration
+████████████░░░░░░░░░░  Advanced RAG
+██████████░░░░░░░░░░░░  Multi-document Q&A
+████████░░░░░░░░░░░░░░  Multilingual support
+```
 
 - [ ] 📊 Advanced document analytics
-- [ ] 📑 Better table and structured-data extraction
+- [ ] 📑 Better table & structured-data extraction
 - [ ] 🌍 Multilingual document Q&A
 - [ ] 🧩 More document formats
 - [ ] 🔎 Improved vector-search infrastructure
@@ -311,23 +344,23 @@ It is designed to reduce the time spent manually navigating long documents and m
 
 ## 🤝 Contributing
 
-Contributions, ideas, and improvements are welcome!
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a pull request
+1. 🍴 Fork the repository
+2. 🌱 Create a feature branch
+3. 💻 Commit your changes
+4. 🚀 Open a pull request
 
 ---
 
 <div align="center">
 
-### 💖 Built to make documents easier to understand.
-
-<a href="https://github.com/mishtee-khanna/intellidocs-ai">⭐ Star the repository if you like the project!</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=FF6EC7&center=true&vCenter=true&width=650&lines=Made+with+curiosity+%E2%9C%A8;Built+to+make+documents+smarter+%F0%9F%A7%A0;Upload.+Ask.+Understand.+%F0%9F%92%AC" alt="Animated closing message" />
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:9b5de5,100:ff6ec7&height=120&section=footer&animation=fadeIn" width="100%" alt="Footer animation" />
+<a href="https://github.com/mishtee-khanna/intellidocs-ai">⭐ Star the repository if you like IntelliDocs AI!</a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,35:9b5de5,70:f72585,100:ff6ec7&height=140&section=footer&animation=fadeIn" width="100%" alt="Animated footer" />
 
 </div>
