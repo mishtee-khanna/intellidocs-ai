@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  serverExternalPackages: ["pdf-parse", "@huggingface/transformers", "onnxruntime-node", "sharp"],
+  serverExternalPackages: ["pdf-parse", "mammoth", "sharp"],
 };
 
 export default nextConfig;
