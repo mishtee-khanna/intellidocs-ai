@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import { extractTextFromFile } from "@/lib/text-extractor";
+import { extractTextFromBuffer } from "@/lib/text-extractor";
 import { chunkText, generateEmbedding } from "@/lib/rag";
-import fs from "fs";
 
 export async function POST(req: Request) {
   try {
@@ -20,12 +19,13 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "Document not found" }, { status: 404 });
     }
 
-    if (!fs.existsSync(document.path)) {
+    // Decode base64 file content stored in the path field
+    if (!document.path) {
       await prisma.document.update({
         where: { id: document.id },
         data: { status: "FAILED" }
       });
-      return NextResponse.json({ error: "File not found on disk" }, { status: 404 });
+      return NextResponse.json({ error: "No file content found" }, { status: 404 });
     }
 
     // Set status to PROCESSING
@@ -34,9 +34,12 @@ export async function POST(req: Request) {
       data: { status: "PROCESSING" }
     });
 
-    // 1. Extract text and page-by-page mapping
-    const { text, pageCount, pages } = await extractTextFromFile(
-      document.path,
+    // Decode base64 → Buffer
+    const fileBuffer = Buffer.from(document.path, "base64");
+
+    // Extract text from buffer (no filesystem access)
+    const { text, pageCount, pages } = await extractTextFromBuffer(
+      fileBuffer,
       document.type,
       document.title
     );
@@ -58,7 +61,7 @@ export async function POST(req: Request) {
       where: { documentId: document.id }
     });
 
-    // 2. Page-Aware Semantic Chunking & Vector Embeddings
+    // Page-Aware Semantic Chunking & Vector Embeddings
     let processedChunksCount = 0;
 
     for (const page of pages) {
@@ -71,7 +74,7 @@ export async function POST(req: Request) {
         try {
           embeddingVector = await generateEmbedding(chunkContent);
         } catch (embErr) {
-          console.warn(`Embedding generation warning for chunk on page ${page.pageNumber}:`, embErr);
+          console.warn(`Embedding warning for chunk on page ${page.pageNumber}:`, embErr);
         }
 
         await prisma.documentChunk.create({
@@ -87,16 +90,14 @@ export async function POST(req: Request) {
       }
     }
 
-    // Generate concise summary from first few sentences
     const summaryExcerpt = text.slice(0, 300).replace(/\n+/g, " ").trim();
     const summary = `${summaryExcerpt}... (${processedChunksCount} chunks indexed across ${pageCount} pages)`;
 
-    // 3. Mark Document as COMPLETED
     const updatedDoc = await prisma.document.update({
       where: { id: document.id },
       data: {
         status: "COMPLETED",
-        extractedText: text.slice(0, 15000), // Preview text stored in DB
+        extractedText: text.slice(0, 15000),
         summary
       }
     });

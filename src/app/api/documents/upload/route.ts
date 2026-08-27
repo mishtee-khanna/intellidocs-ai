@@ -1,10 +1,7 @@
 import { NextResponse } from "next/server";
-import { writeFile, mkdir } from "fs/promises";
-import path from "path";
 import { prisma } from "@/lib/prisma";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/lib/auth";
-import crypto from "crypto";
 
 export async function POST(req: Request) {
   try {
@@ -17,19 +14,10 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "No file provided" }, { status: 400 });
     }
 
+    // Read file into memory — no disk writes (Vercel is read-only)
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
-
-    // Save to project uploads directory
-    const uploadDir = path.join(process.cwd(), "uploads");
-    await mkdir(uploadDir, { recursive: true });
-
-    // Clean original filename and generate safe unique name
-    const sanitizedOriginalName = file.name.replace(/[^a-zA-Z0-9._-]/g, "_");
-    const uniqueFilename = `${Date.now()}-${crypto.randomBytes(8).toString("hex")}-${sanitizedOriginalName}`;
-    const filePath = path.join(uploadDir, uniqueFilename);
-
-    await writeFile(filePath, buffer);
+    const base64Content = buffer.toString("base64");
 
     // Ensure we have a valid user in database
     if (!userId || userId === "local-user") {
@@ -46,20 +34,20 @@ export async function POST(req: Request) {
     }
 
     // Determine category based on file type
+    const ext = file.name.split(".").pop()?.toLowerCase() || "";
     let category = "General";
-    const ext = path.extname(file.name).toLowerCase();
-    if (ext === ".pdf") category = "PDF Document";
-    else if (ext === ".docx") category = "Word Document";
-    else if (ext === ".txt" || ext === ".md") category = "Text Document";
-    else if (ext === ".json" || ext === ".csv") category = "Data File";
+    if (ext === "pdf") category = "PDF Document";
+    else if (ext === "docx") category = "Word Document";
+    else if (ext === "txt" || ext === "md") category = "Text Document";
+    else if (ext === "json" || ext === "csv") category = "Data File";
 
-    // Save document metadata to database
+    // Save document metadata + file content in DB (no filesystem)
     const document = await prisma.document.create({
       data: {
         userId,
         title: file.name,
-        filename: uniqueFilename,
-        path: filePath,
+        filename: file.name,
+        path: base64Content,       // store base64 content in path field
         size: file.size,
         type: file.type || ext || "application/octet-stream",
         status: "PENDING",
@@ -69,7 +57,7 @@ export async function POST(req: Request) {
 
     return NextResponse.json({
       success: true,
-      filename: uniqueFilename,
+      filename: file.name,
       documentId: document.id,
       document: {
         id: document.id,
