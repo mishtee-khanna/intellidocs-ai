@@ -1,6 +1,7 @@
 datasource db {
-  provider = "sqlite"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 generator client {
@@ -24,6 +25,7 @@ model Account {
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([provider, providerAccountId])
+  @@index([userId])
 }
 
 model Session {
@@ -32,6 +34,8 @@ model Session {
   userId       String
   expires      DateTime
   user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
 }
 
 model User {
@@ -71,6 +75,8 @@ model Document {
 
   user          User            @relation(fields: [userId], references: [id], onDelete: Cascade)
   chunks        DocumentChunk[]
+
+  @@index([userId])
 }
 
 model DocumentChunk {
@@ -81,4 +87,6 @@ model DocumentChunk {
   embedding  String?  // JSON serialized vector for cross-SQL portability
   
   document   Document @relation(fields: [documentId], references: [id], onDelete: Cascade)
+
+  @@index([documentId])
 }
