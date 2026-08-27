@@ -1,1 +1,0 @@
-IntelliDocs AI is a next-generation document intelligence application built with Next.js 16, React 19, and Prisma ORM. It enables semantic vector search using all-MiniLM-L6-v2 embeddings and local question answering. The system stores vector embeddings in a relational SQL database structure, enabling efficient cosine similarity retrieval and instant citations.

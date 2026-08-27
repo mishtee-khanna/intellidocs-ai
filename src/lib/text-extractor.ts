@@ -69,7 +69,7 @@ export async function extractTextFromFile(
           pages = textRes.pages.map((p: any, idx: number) => ({
             pageNumber: p.num || idx + 1,
             text: cleanText(p.text || "")
-          })).filter(p => p.text.length > 0);
+          })).filter((p: any) => p.text.length > 0);
           
           extractedText = pages.map(p => `--- [Page ${p.pageNumber}] ---\n${p.text}`).join("\n\n");
         } else if (textRes && typeof textRes.text === "string") {

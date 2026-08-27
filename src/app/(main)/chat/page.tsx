@@ -129,7 +129,7 @@ function ChatContent() {
         const errorMessage: Message = {
           id: `ai-err-${Date.now()}`,
           role: "ai",
-          content: `Error: ${data.error || "Failed to process question."}`,
+          content: `Error: ${data.error || "Failed to process question."}\n\nDetails: ${data.details || "None"}`,
           timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
         };
         setMessages((prev) => [...prev, errorMessage]);
@@ -138,7 +138,7 @@ function ChatContent() {
       const errorMessage: Message = {
         id: `ai-err-${Date.now()}`,
         role: "ai",
-        content: "An unexpected error occurred while communicating with the AI service.",
+        content: `Error: Failed to process chat query. Details: ${err.message || String(err)}`,
         timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
       };
       setMessages((prev) => [...prev, errorMessage]);
