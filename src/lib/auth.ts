@@ -33,19 +33,7 @@ export const authOptions: NextAuthOptions = {
               }
             });
           }
-
-          if (!user || !user.password) return null;
-
-          const isValid = await bcrypt.compare(credentials.password, user.password);
-          if (!isValid) return null;
-
-          return {
-            id: user.id,
-            name: user.name || user.email?.split("@")[0],
-            email: user.email,
-            image: user.image
-          };
-        } catch (authError) {
+            catch (authError) {
           console.error("NextAuth authorize error:", authError)
           return {
             id: "local-user",
