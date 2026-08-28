@@ -46,8 +46,7 @@ export const authOptions: NextAuthOptions = {
             image: user.image
           };
         } catch (authError) {
-          console.error("NextAuth authorize error:", authError);
-          // Return mock session in offline/local dev fallback
+          console.error("NextAuth authorize error:", authError)
           return {
             id: "local-user",
             name: credentials.email.split("@")[0],
